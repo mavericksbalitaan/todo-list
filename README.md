@@ -10,8 +10,8 @@
 - [x] Languages: HTML, SASS and JavaScript
 - [x] Linters: Lighthouse, Webhint, Stylelint and ESlint
 - [x] Module Bundler: Webpack
-- [ ] Module Bundler Loaders: Style, CSS and SASS
-- [ ] Module Bundler Plugin: HtmlWebpackPlugin
+- [x] Module Bundler Loaders: Style, CSS and SASS
+- [x] Module Bundler Plugin: HtmlWebpackPlugin
 - [x] Code Editor: VS Code
 
 ## Website Mockup 📱 💻 🖥️
