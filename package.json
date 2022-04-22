@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mavericks-db/todo-list/issues"
   },
-  "homepage": "https://github.com/mavericks-db/todo-list#readme"
+  "homepage": "https://github.com/mavericks-db/todo-list#readme",
+  "devDependencies": {
+    "lighthouse": "^9.5.0"
+  }
 }
