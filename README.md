@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Awesome Books
+# To-do List
 
-> This is an educational project to make a simple website that displays a list of books and allows you to add and remove books from that list. The goal is to make it more organized by using modules and practice the ES6 syntax.
+> This is an educational project to make a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
 
 
 ## Built With
