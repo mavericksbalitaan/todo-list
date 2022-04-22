@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mavericks-db/todo-list#readme",
   "devDependencies": {
+    "hint": "^6.1.11",
     "lighthouse": "^9.5.0"
   }
 }
