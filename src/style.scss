@@ -117,6 +117,7 @@ section {
     display: block;
     overflow-y: scroll;
     height: 50vh;
+    background-color: white;
 
     li {
       @include flex(row, space-between, center);
@@ -126,6 +127,12 @@ section {
       background-color: white;
       border-bottom: 1px solid #333;
       height: 3rem;
+
+      &:focus {
+        color: blue;
+        background-color: bisque;
+        font-size: 1.7rem;
+      }
 
       .checkbox {
         margin-left: 0.5rem;
