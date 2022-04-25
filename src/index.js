@@ -90,8 +90,9 @@ const listArray = [
 // Dynamically Created List of Tasks Function
 const loopTask = () => {
   const listContainer = document.querySelector('.listContainer');
-  const sorted = listArray.sort((a, b) => (a.index < b.index ? 1 : -1));
-  sorted.forEach((el) => {
+  // const sorted = listArray.sort((a, b) => (a.index < b.index ? 1 : -1));
+  // as per previous code reviewer to change the order
+  listArray.forEach((el) => {
     const li = [];
     const input = [];
     const button = [];
