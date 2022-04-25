@@ -21,7 +21,7 @@ Screenshots can be found in the repository.
 
 ## Live Demo 🔗
 
-Click [here](https://mavericks-db.github.io/todo-list/)👈
+Check the live demo [here](https://mavericks-db.github.io/todo-list/)👈
 
 ## Getting Started
 
@@ -89,7 +89,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse
+- [Microverse](https://www.microverse.org/)
 - Code Reviewers
 - Coding Partners
 
