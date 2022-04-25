@@ -79,7 +79,7 @@ export default class TaskList {
   }
 
   update(num, description) {
-    if (this.listArray[num].index === parseInt(num)) {
+    if (this.listArray[num].index === Number(num)) {
       this.listArray[num].description = description;
     }
     this.listArray.forEach((el, index) => {
