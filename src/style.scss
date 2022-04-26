@@ -75,6 +75,7 @@ section {
       margin: 0;
       text-align: center;
       background-color: lightgrey;
+      cursor: pointer;
     }
   }
 
@@ -134,14 +135,22 @@ section {
         font-size: 1.7rem;
       }
 
+      &.checked {
+        text-decoration: line-through;
+        opacity: 0.5;
+        background-color: lightgrey;
+      }
+
       .checkbox {
         margin-left: 0.5rem;
+        cursor: pointer;
       }
 
       p {
         margin-left: 0.5rem;
         margin-right: auto;
         letter-spacing: 1.5px;
+        width: 100%;
       }
 
       button {
