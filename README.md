@@ -15,13 +15,15 @@
 - [x] Code Editor: VS Code
 
 ## Website Mockup 📱 💻 🖥️
+![all-devices-black](https://user-images.githubusercontent.com/98527559/165251478-3d8d8e84-896d-4e06-b6b9-7efc4ac649b3.png)
+
 
 ## Screenshots 📸
 Screenshots can be found in the repository.
 
 ## Live Demo 🔗
 
-Check the live demo [here](https://mavericks-db.github.io/todo-list/)👈
+Check the live demo [here](https://mavericks-db.github.io/todo-list/dist)👈
 
 ## Getting Started
 
