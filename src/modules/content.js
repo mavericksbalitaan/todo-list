@@ -13,11 +13,23 @@ title.textContent = 'Today\'s To Do';
 const reloadBtn = document.createElement('button');
 reloadBtn.innerHTML = '<i class="fa-solid fa-arrows-rotate"></i>';
 
+// Window Reload
+reloadBtn.addEventListener('click', () => {
+  const taskList = new TaskList();
+  taskList.clearAll();
+});
+
 // Bottom Section
 const botSec = document.createElement('div');
 botSec.classList.add('botSec');
 const title2 = document.createElement('h2');
 title2.textContent = 'Clear all completed';
+
+// Clear All Event
+title2.addEventListener('click', () => {
+  const taskList = new TaskList();
+  taskList.clearAllCompleted();
+});
 
 // Input Section
 const inputSec = document.createElement('div');
@@ -44,8 +56,7 @@ const taskList = new TaskList();
 // Add Button Event
 addBtn.addEventListener('click', () => {
   if (!input.value.trim()) {
-    alert('Empty task');
-    window.location.reload();
+    alert('Please fill in the task to add in the list.');
   } else {
     taskList.add(input.value, completed, index);
     taskList.display();
