@@ -23,7 +23,7 @@ Screenshots can be found in the repository.
 
 ## Live Demo 🔗
 
-Check the live demo [here](https://mavericks-db.github.io/todo-list/)👈
+Check the live demo [here](https://mavericks-db.github.io/todo-list/dist/index.html)👈
 
 ## Getting Started
 
