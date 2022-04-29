@@ -93,7 +93,6 @@ export default class TaskList {
     this.listArray.forEach((el, index) => {
       el.index = index;
     });
-    localStorage.clear();
     localStorage.setItem('todo-list', JSON.stringify(this.listArray));
     this.display();
   }
@@ -105,7 +104,6 @@ export default class TaskList {
     this.listArray.forEach((el, index) => {
       el.index = index;
     });
-    localStorage.clear();
     localStorage.setItem('todo-list', JSON.stringify(this.listArray));
     this.display();
   }
@@ -121,7 +119,6 @@ export default class TaskList {
     this.listArray.forEach((el, index) => {
       el.index = index;
     });
-    localStorage.clear();
     localStorage.setItem('todo-list', JSON.stringify(this.listArray));
     window.location.reload();
   };
