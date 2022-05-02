@@ -86,7 +86,6 @@ export default class TaskList {
     const key = num;
     if (this.listArray.length === 1) {
       this.listArray = [];
-      localStorage.clear();
     } else {
       this.listArray.splice(key, 1);
     }
