@@ -3,12 +3,14 @@ import Status from './status.js';
 
 export default class TaskList {
   constructor() {
-    this.listArray = JSON.parse(localStorage.getItem('todo-list')) || [];
+    this.listArray = [];
   }
 
   display() {
     const listContainer = document.querySelector('.listContainer');
-    listContainer.innerHTML = '';
+    if (listContainer) {
+      listContainer.innerHTML = '';
+    }
     this.listArray.forEach((el) => {
       const li = [];
       const input = [];
