@@ -8,10 +8,10 @@
 ## Built With
 
 - [x] Languages: HTML, Sass and JavaScript
-- [x] Linters: Lighthouse, Webhint, Stylelint and ESlint
+- [x] Linters: Lighthouse, Webhint, Stylelint and ESLint
 - [x] Module Bundler: Webpack
 - [x] Module Bundler Loaders: Style, CSS and Sass
-- [x] Module Bundler Plugin: HtmlWebpackPlugin
+- [x] Module Bundler Plugins: HtmlWebpackPlugin, FaviconWebpackPlugin, MiniCssExtractPlugin and CssMinimizer Plugin
 - [x] Code Editor: VS Code
 
 ## Website Mockup 📱 💻 🖥️
