@@ -29,7 +29,7 @@ body {
   background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 90vh;
   overflow: hidden;
 }
 
@@ -162,6 +162,7 @@ section {
   }
 }
 
+// Desktop Version
 @media (min-width: 768px) {
   section {
     margin-top: 10vh;
