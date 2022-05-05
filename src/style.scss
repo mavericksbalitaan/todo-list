@@ -37,7 +37,7 @@ section {
   @include margin-sides();
 
   margin-top: 10vh;
-  width: 50vw;
+  width: 90vw;
   box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
 
   // Top Section
@@ -159,5 +159,12 @@ section {
         cursor: move;
       }
     }
+  }
+}
+
+@media (min-width: 768px) {
+  section {
+    margin-top: 10vh;
+    width: 50vw;
   }
 }
