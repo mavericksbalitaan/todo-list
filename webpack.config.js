@@ -1,9 +1,24 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 module.exports = {
   mode: 'development',
   entry: './src/index.js',
+  devServer: {
+    static: './dist',
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+    }),
+    new FaviconsWebpackPlugin('./src/assets/favicon.png'),
+    new MiniCssExtractPlugin({
+      filename: 'style.css',
+    }),
+  ],
   output: {
     filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
@@ -12,8 +27,8 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.scss$/i,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
+        test: /\.s[ac]ss$/i,
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
@@ -21,12 +36,9 @@ module.exports = {
       },
     ],
   },
-  devServer: {
-    static: './dist',
+  optimization: {
+    minimizer: [
+      new CssMinimizerPlugin(),
+    ],
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './src/index.html',
-    }),
-  ],
 };
