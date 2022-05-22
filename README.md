@@ -8,7 +8,7 @@
 ## Built With
 
 - [x] Languages: HTML, SASS and JavaScript
-- [x] Linters: Lighthouse, Webhint, Stylelint and ESlint
+- [x] Linters: Lighthouse, Webhint, Stylelint and ESLint
 - [x] Module Bundler: Webpack
 - [x] Module Bundler Loaders: Style, CSS and SASS
 - [x] Module Bundler Plugin: HtmlWebpackPlugin
