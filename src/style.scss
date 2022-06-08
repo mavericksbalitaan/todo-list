@@ -25,8 +25,7 @@ html {
 
 body {
   font-family: $ff;
-  background-color: #0cbaba;
-  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+  background-color: #f7f7e8;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
@@ -42,7 +41,8 @@ section {
 
   // Top Section
   .topSec {
-    background-color: bisque;
+    background-color: black;
+    color: white;
 
     @include flex(row, space-between, center);
 
@@ -60,6 +60,7 @@ section {
       background-color: transparent;
       margin-right: 1rem;
       cursor: pointer;
+      color: white;
     }
   }
 
@@ -159,5 +160,11 @@ section {
         cursor: move;
       }
     }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    width: 80vw;
   }
 }
